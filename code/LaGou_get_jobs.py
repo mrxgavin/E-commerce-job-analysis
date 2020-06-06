@@ -162,9 +162,9 @@ if __name__ == "__main__":
     query_param_dir = ".\web\lagou_query.txt" # 请求网页的参数文件
     job_name = "电商" # 职位名
     area_name = "上海" # 地区名
-    page_num = 100 # 抓取页面个数
+    page_num = 80 # 抓取页面个数
     sleep_timeinc = 10 # 每次抓取页面之间休眠间隔
-    csv_name = "data\\lagou_jobs_"+job_name+"_"+\
+    csv_name = "lagou_jobs_"+job_name+"_"+\
                area_name+"_"+str(page_num)+".csv" # 保存职位信息的文件名
     
     get_AllJobInformation(query_param_dir,job_name,area_name,page_num,sleep_timeinc,csv_name)

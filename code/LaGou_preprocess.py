@@ -14,7 +14,7 @@ pd.set_option('display.max_rows', None) #显示所有行
 
 
 ## 读取数据
-file_name = r'data\data_ana\lagou_jobs_数据挖掘_北京_100.csv'
+file_name = r'lagou_jobs_电商_上海_80.csv'
 df = pd.read_csv(file_name,index_col=0)
 
 
